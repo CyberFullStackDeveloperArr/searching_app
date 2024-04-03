@@ -1,0 +1,518 @@
+.container8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.seG {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.mata {
+  height: 50px;
+  width: 50px;
+  animation: mata 1s linear infinite;
+}
+@keyframes mata {
+  from {
+    fill: blue;
+  }
+  to {
+    fill: black;
+  }
+}
+ .container7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container7, .Gatas, .Gbawah {
+  margin: 1px 0;
+  text-align: center;
+  overflow-x: hidden;
+  font-weight: bold;
+} 
+.Gbawah {
+  background-image: linear-gradient(85deg, purple, green, orange);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.foto-tebak {
+ display: flex;
+ flex-direction: column;
+}
+.gr-tebak {
+  height: 300px;
+  width: 300px;
+}
+.foto-tebak, .gr-tebak {
+  margin-bottom: 10px;
+}
+.atas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.robot {
+  margin-top: -20px;
+  height: 30px;
+  width: 30px;
+  fill: navy;
+}
+.cht {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  background-image: linear-gradient(15deg, black, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.botjudul {
+  font-weight: bold;
+  font-size: 30px;
+  animation: putar3 2s linear infinite;
+}
+@keyframes putar3 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+.kotak {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: space-between; 
+  border: 5px solid black;
+  border-left: 5px solid blue;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 8px;
+}
+.satu, .dua, .tiga {
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 30px;
+}
+.satu1 {
+  padding-top: 140px;
+  padding-bottom: 50px;
+}
+.dua2 {
+  padding-top: 170px;
+}
+.music {
+  display: none;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.target {
+ font-size: 26px;
+ font-weight: bold;
+ display: block;
+}
+.bulat1 {
+  background-color: DodgerBlue;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  animation: putar1 2s linear infinite;
+}
+@keyframes putar1 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+.border {
+  border: 3px solid black;
+  display: inline-block; 
+  padding: 7px;
+  border-radius: 30px;
+  animation: putar2 4s linear infinite;
+  z-index: 9999;
+  position: fixed;
+  transition: left 0.2s ease, top 0.2s ease;
+}
+@keyframes putar2 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.partner, .pat1 {
+  display: inline-block;
+  text-align: center;
+}
+.nama {
+  display: block;
+  font-size: 20px;
+}
+.pat1 {
+  background-color: white;
+  padding: 17px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin-right: 20px;
+}
+.komputer {
+  height: 30px;
+  width: 30px;
+}
+.pat1:active {
+  transform: rotateY(360deg);
+}
+.pat1:hover {
+  background-color: DodgerBlue;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.partner {
+  width: 900px;
+}
+.judul span {
+  display: inline-block;
+  animation: slide 2s linear infinite;
+}
+@keyframes slide {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25%, 75% {
+    color: DodgerBlue;
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+}
+.target span {
+  display: inline-block;
+  animation: slidet 2s linear infinite;
+}
+@keyframes slidet {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25%, 75% {
+    color: DodgerBlue;
+  }
+}
+.judul, .penjelasan {
+  margin: 0;
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tengkorak {
+  height: 100px;
+  width: 100px;
+  animation: rotateXY 4s linear infinite;
+}
+@keyframes rotateXY {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg) rotateY(180deg);
+    fill: blue;
+  }
+}
+.wadah1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+.nilai {
+  width: 800px;
+  height: 25px;
+}
+.container1 {
+  margin-bottom: -30px; 
+}
+.game, .google {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  max-width: 200px;
+  display: block;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.game:hover {
+  background-color: DodgerBlue;
+}
+.google:hover {
+  background-color: DodgerBlue;
+}
+.container2 span {
+  display: inline-block;
+  padding: 5px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bawah {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  align-items: center;
+  cursor: pointer;
+}
+.gt {
+  display: flex;
+  align-items: center;
+}
+.copy {
+  padding: 5px;
+  font-size: 19px;
+}
+.github {
+  height: 30px;
+  margin-left: -10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 45px;
+}
+.wadah {
+  display: flex;
+  align-items: center;
+}
+input {
+  height: 39px;
+  width: 500px;
+  font-size: 16px;
+  font-weight: bold;
+}
+button {
+  height: 44px;
+  width: 44px;
+  background-color: black;
+}
+.cari {
+  fill: white;
+}
+@media only screen and (max-width: 1000px) {
+  .judul, .penjelasan {
+    font-size: 30px;
+  }
+  .target {
+    font-size: 22px !important;
+  }
+  .tengkorak {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .nilai {
+    width: 400px;
+  }
+  .game, .google {
+    font-size: 16px;
+  }
+  input {
+    width: 380px;
+  }
+  .dua {
+    width: 200px;
+    word-wrap: break-word;
+  }
+  .gr-tebak {
+    height: 250px;
+    width: 250px;
+  }
+  .cht {
+    font-size: 40px;
+  }
+  .satu, .dua, .tiga {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dua {
+    width: 150px;
+    word-wrap: break-word;
+  }
+  .gr-tebak {
+    height: 180px;
+    width: 180px;
+  }
+  .satu, .dua, .tiga {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .pat1 {
+    padding: 10px;
+  }
+  .nilai {
+    width: 200px;
+  }
+  .judul, .penjelasan {
+    font-size: 20px;
+  }
+  .game, .google {
+    font-size: 16px;
+  }
+  .container1 {
+    margin-bottom: -55px; 
+  }
+  .komputer {
+    height: 25px;
+    width: 25px;
+  }
+  .copy {
+    font-size: 15px;
+  }
+  .github {
+    height: 20px;
+    width: 20px;
+  }
+  .nama {
+    font-size: 13px;
+  }
+  input {
+    width: 290px;
+  }
+  .container {
+    width: 96%;
+  }
+  .dua {
+    width: 150px;
+    word-wrap: break-word;
+  }
+  .gr-tebak {
+    height: 150px;
+    width: 150px;
+  }
+  .satu, .dua, .tiga {
+    font-size: 16px;
+  }
+  .cht {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .dua {
+    width: 130px;
+    word-wrap: break-word;
+  }
+  .gr-tebak {
+    height: 120px;
+    width: 120px;
+  }
+  .satu, .dua, .tiga {
+    font-size: 15px;
+  }
+  .cht {
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+  .robot {
+    height: 25px;
+    width: 25px;
+  }
+  .botjudul {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  input {
+    width: 250px;
+  }
+  .dua {
+    width: 110px;
+    word-wrap: break-word;
+  }
+  .gr-tebak {
+    height: 100px;
+    width: 100px;
+  }
+  .satu, .dua, .tiga {
+    font-size: 15px;
+  }
+  .cht {
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+  .robot {
+    height: 25px;
+    width: 25px;
+  }
+  .botjudul {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .game, .google {
+    font-size: 13px;
+  }
+  .copy {
+    font-size: 13px;
+  }
+  .github {
+    height: 19px;
+    width: 19px;
+  }
+  input {
+    width: 180px;
+  }
+}

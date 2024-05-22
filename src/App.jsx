@@ -88,8 +88,8 @@ function App() {
   };
   const handleAddText = async () => {
     setContainer8(false);
-    const apiKey = 'AIzaSyDbxg5fL-uSnJpphIrz_t6rzOpV3GuUtVI';
-    const cx = '14aba311e75dc4100';
+    const apiKey = 'PASANG SENDIRI';
+    const cx = 'PASANG SENDIRI';
     const url = `https://www.googleapis.com/customsearch/v1?q=${inputValue}&key=${apiKey}&cx=${cx}`; 
     try {
       const response = await fetch(url);
